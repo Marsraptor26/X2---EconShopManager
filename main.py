@@ -27,11 +27,6 @@ class MyBot(commands.Bot):
 
         self.initial_extensions = [
             "cogs.myCommand", 
-            "cogs.economy.economy", 
-            "cogs.economy.shop", 
-            "cogs.fruitsChoices", 
-            "cogs.economy.addItemTest"
-
         ]
 
     async def setup_hook(self): 
